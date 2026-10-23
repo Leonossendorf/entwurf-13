@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="de-DE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Hotel Freye, Rheine – unverbindlicher Entwurf</title>
+<meta name="description" content="Unverbindlicher Website-Entwurf von Leon Oßendorf für das Hotel Freye in Rheine. Kein offizieller Auftritt.">
+<link rel="preload" href="fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/manrope-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="messing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F3DB9C"/><stop offset=".28" stop-color="#D6B064"/><stop offset=".62" stop-color="#A9823D"/><stop offset="1" stop-color="#6F5222"/>
+    </linearGradient>
+    <linearGradient id="messing-k" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7A5A26"/><stop offset=".35" stop-color="#E9CC86"/><stop offset=".55" stop-color="#C39B52"/><stop offset="1" stop-color="#6F5222"/>
+    </linearGradient>
+    <linearGradient id="email" x1="0" y1="0" x2=".7" y2="1">
+      <stop offset="0" stop-color="#A63A4B"/><stop offset=".5" stop-color="#8A2B3A"/><stop offset="1" stop-color="#5B1A25"/>
+    </linearGradient>
+    <linearGradient id="glanz" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".34"/><stop offset=".35" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="korn" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="4" result="n"/>
+      <feColorMatrix in="n" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .09 0"/>
+      <feComposite in2="SourceGraphic" operator="in"/>
+    </filter>
+    <filter id="praegung" x="-10%" y="-10%" width="120%" height="120%">
+      <feOffset dx="0" dy="1" in="SourceAlpha" result="o"/><feGaussianBlur in="o" stdDeviation=".5" result="b"/>
+      <feFlood flood-color="#2B0A10" flood-opacity=".55"/><feComposite in2="b" operator="in" result="s"/>
+      <feMerge><feMergeNode in="s"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <symbol id="haus" viewBox="0 0 120 100">
+      <g fill="none" stroke="currentColor" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 50 H16 C28 40 40 26 50 14"/>
+        <path d="M50 14 V8 H70 V14 C80 26 94 38 106 46 L114 44"/>
+        <path d="M56 8 C56 4 64 4 64 8"/>
+        <path d="M12 56 V74 M12 82 V96"/>
+        <path d="M40 30 v8 h6 v-8 c0 -4 -6 -4 -6 0 Z M52 30 v8 h6 v-8 c0 -4 -6 -4 -6 0 Z"/>
+        <path d="M24 74 V62 c0 -5 8 -5 8 0 V74 M36 74 V62 c0 -5 8 -5 8 0 V74 M48 74 V62 c0 -5 8 -5 8 0 V74 M60 74 V62 c0 -5 8 -5 8 0 V74 M72 74 V62 c0 -5 8 -5 8 0 V74"/>
+        <path d="M100 48 V74"/>
+      </g>
+      <circle cx="64" cy="31" r="2.4" fill="currentColor"/>
+    </symbol>
+    <symbol id="schluessel" viewBox="-40 0 260 430">
+      <!-- Schluessel (hinter dem Anhaenger) -->
+      <g class="key" transform="rotate(26 110 26)">
+        <path fill-rule="evenodd" fill="url(#messing)" d="M110 40 a25 25 0 1 1 -0.1 0 Z M110 53 a12 12 0 1 0 0.1 0 Z"/>
+        <path d="M110 46 a19 19 0 0 1 17 11" fill="none" stroke="#FFF3CF" stroke-opacity=".6" stroke-width="2" stroke-linecap="round"/>
+        <rect x="101" y="86" width="18" height="8" rx="2.5" fill="url(#messing-k)"/>
+        <rect x="104" y="96" width="12" height="7" rx="2" fill="url(#messing-k)"/>
+        <rect x="106" y="102" width="8" height="196" rx="3" fill="url(#messing-k)"/>
+        <path d="M114 240 h24 v10 h-9 v8 h9 v12 h-13 v8 h13 v14 h-24 Z" fill="url(#messing)"/>
+        <path d="M107.5 106 v188" stroke="#FFF3CF" stroke-opacity=".55" stroke-width="1.4"/>
+      </g>
+      <!-- Anhaenger -->
+      <g class="fob-body">
+        <path d="M110 34 C128 34 136 44 140 58 L172 120 C176 128 176 134 176 142 L176 362 C176 398 146 420 110 420 C74 420 44 398 44 362 L44 142 C44 134 44 128 48 120 L80 58 C84 44 92 34 110 34 Z" fill="url(#email)"/>
+        <path d="M110 34 C128 34 136 44 140 58 L172 120 C176 128 176 134 176 142 L176 362 C176 398 146 420 110 420 C74 420 44 398 44 362 L44 142 C44 134 44 128 48 120 L80 58 C84 44 92 34 110 34 Z" fill="#000" filter="url(#korn)"/>
+        <path d="M110 34 C128 34 136 44 140 58 L172 120 C176 128 176 134 176 142 L176 362 C176 398 146 420 110 420 C74 420 44 398 44 362 L44 142 C44 134 44 128 48 120 L80 58 C84 44 92 34 110 34 Z" fill="url(#glanz)"/>
+        <path d="M110 34 C128 34 136 44 140 58 L172 120 C176 128 176 134 176 142 L176 362 C176 398 146 420 110 420 C74 420 44 398 44 362 L44 142 C44 134 44 128 48 120 L80 58 C84 44 92 34 110 34 Z" fill="none" stroke="#3A0F17" stroke-opacity=".5" stroke-width="1.2"/>
+        <path d="M110 46 C122 46 128 54 131 64 L162 124 C165 130 165 136 165 142 L165 360 C165 390 141 409 110 409 C79 409 55 390 55 360 L55 142 C55 136 55 130 58 124 L89 64 C92 54 98 46 110 46 Z" fill="none" stroke="#D9B46A" stroke-width="2.2" opacity=".9"/>
+        <circle cx="110" cy="60" r="9.5" fill="#2A0C12"/><circle cx="110" cy="60" r="9.5" fill="none" stroke="url(#messing-k)" stroke-width="3"/>
+        <g filter="url(#praegung)" fill="#E2C27C" color="#E2C27C">
+          <use href="#haus" x="68" y="128" width="84" height="70"/>
+          <text x="110" y="240" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="24" letter-spacing="3">HOTEL</text>
+          <text x="110" y="270" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="24" letter-spacing="3">FREYE</text>
+          <rect x="84" y="290" width="52" height="1.6"/>
+          <text x="110" y="354" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-style="italic" font-weight="500" font-size="46">1a</text>
+          <text x="110" y="384" text-anchor="middle" font-family="Manrope, sans-serif" font-weight="700" font-size="10" letter-spacing="2.4">EMSSTRASSE</text>
+        </g>
+      </g>
+      <!-- Ring -->
+      <circle cx="110" cy="40" r="20" fill="none" stroke="url(#messing-k)" stroke-width="5.5"/>
+      <path d="M93 30 a20 20 0 0 1 22 -9" fill="none" stroke="#FFF3CF" stroke-opacity=".7" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="key-icon" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7.5" cy="12" r="4.5"/><path d="M12 12h10M18 12v4M21 12v3"/></g>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="entwurf-band">Unverbindlicher Entwurf von Leon Oßendorf, kein offizieller Auftritt des Hotel Freye.</div>
+
+<header class="kopf">
+  <a class="marke" href="#top" aria-label="Hotel Freye, zum Anfang">
+    <svg class="marke-haus" aria-hidden="true"><use href="#haus"/></svg>
+    <span><small>Willkommen im</small>Hotel Freye</span>
+  </a>
+  <nav class="nav" aria-label="Hauptnavigation">
+    <a href="#zimmer">Zimmer</a><a href="#fruehstueck">Frühstück</a><a href="#lage">Lage</a><a href="#geschichte">Geschichte</a><a href="#anreise">Anreise</a>
+  </nav>
+  <a class="kopf-tel" href="tel:+495971899260">05971 8 99 26 0</a>
+  <a class="btn btn-buchen kopf-btn" href="#buchen"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#key-icon"/></svg>Direkt buchen</a>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="hero-bild">
+    <img src="img/fassade.jpg" alt="Das Hotel Freye mit seinen Bögen an der Emsstraße, gegenüber dem alten Rathaus" width="1600" height="1067">
+  </div>
+  <div class="hero-inhalt">
+    <p class="eyebrow">Hotel Freye · Emsstraße 1a · Rheine</p>
+    <h1>Schlafen über den Bögen. <em>Mitten in Rheine.</em></h1>
+    <p class="hero-lead">Tradition, Gemütlichkeit, Herzlichkeit: gegenüber dem alten Rathaus, zwei Gehminuten vom Bahnhof, die Ems und der EmsAuenWeg direkt vor der Tür.</p>
+
+    <form class="buchen" id="buchen" aria-labelledby="buchen-titel">
+      <div class="haken" aria-hidden="true"></div>
+      <svg class="anhaenger" viewBox="-40 0 260 430" aria-hidden="true"><g class="swing"><use href="#schluessel" x="-40" y="0" width="260" height="430"/></g></svg>
+      <div class="buchen-kopf">
+      <h2 id="buchen-titel">Ihr Zimmer, direkt beim Gastgeber</h2>
+      <p class="buchen-sub">Immer zu besten Preisen direkt buchen.</p>
+      <div class="felder">
+        <label>Anreise<input type="date" id="b-anreise" required></label>
+        <label>Nächte<select id="b-naechte"></select></label>
+        <label>Gäste<select id="b-gaeste"><option value="1">1 Person</option><option value="2" selected>2 Personen</option><option value="3">3 Personen</option><option value="4">4 Personen</option></select></label>
+      </div>
+      </div>
+      <button class="btn btn-buchen btn-gross" type="submit">Freie Zimmer ansehen</button>
+      <p class="buchen-info">Öffnet das Buchungssystem des Hotel Freye mit Ihren Daten. Lieber persönlich? <a href="tel:+495971899260">05971 8 99 26 0</a></p>
+    </form>
+  </div>
+</section>
+
+<section class="stimmen" aria-label="Bewertungen">
+  <div class="stimmen-in">
+    <div class="note"><b>8,7</b><span>Booking.com<br>1.365 Bewertungen</span></div>
+    <div class="note"><b>9,6</b><span>für das<br>Personal</span></div>
+    <div class="note"><b>9,4</b><span>für die<br>Lage</span></div>
+    <div class="note"><b>4,6</b><span>Sterne<br>bei Google</span></div>
+    <p class="stimmen-quelle">Frühstück auf Booking.com: „Außergewöhnlich“. Stand Oktober 2026.</p>
+  </div>
+</section>
+
+<section class="block" id="zimmer">
+  <div class="kapitel">
+    <p class="eyebrow">Zimmer</p>
+    <h2>Jedes Zimmer ein bisschen anders.</h2>
+    <p>Unser traditionsreiches Hotel bietet Ihnen 30 Betten in modern eingerichteten Doppel- und Einzelzimmern. Aufgrund des historischen Gebäudes sind die Zimmer unterschiedlich geschnitten und vermitteln einen individuellen Charme.</p>
+  </div>
+  <div class="zimmer-grid">
+    <article class="zimmer-karte">
+      <img src="img/zimmer-blau.jpg" alt="Einzelzimmer mit blauer Bank am Bettende" width="1600" height="1066">
+      <div class="zk-text">
+        <h3>Einzelzimmer</h3>
+        <p class="preis">Economy Standard ab <b>70 €</b></p>
+        <button class="btn btn-linie" data-gaeste="1" type="button">Verfügbarkeit prüfen</button>
+      </div>
+    </article>
+    <article class="zimmer-karte">
+      <img src="img/zimmer-doppel.jpg" alt="Helles Doppelzimmer mit großem Fenster" width="1600" height="1067">
+      <div class="zk-text">
+        <h3>Doppelzimmer</h3>
+        <p class="preis">Economy Standard ab <b>110 €</b></p>
+        <button class="btn btn-linie" data-gaeste="2" type="button">Verfügbarkeit prüfen</button>
+      </div>
+    </article>
+    <aside class="zimmer-info">
+      <img src="img/schluessel.jpg" alt="Zimmerschlüssel steckt in der Tür" width="1584" height="1056">
+      <h3>In jedem Zimmer</h3>
+      <ul class="chips"><li>Dusche und WC</li><li>Haartrockner</li><li>kostenloses W-LAN</li><li>Telefon</li><li>Fernseher</li></ul>
+      <p class="klein">Frühstücksbuffet inklusive. Ohne Frühstück ziehen wir 8 € pro Person und Tag ab, sagen Sie es uns einfach beim Check-in.</p>
+    </aside>
+  </div>
+</section>
+
+<section class="block fruehstueck" id="fruehstueck">
+  <div class="f-bilder">
+    <img class="f-gross" src="img/fruehstueck.jpg" alt="Frühstücksbuffet mit frischem Obst" width="1578" height="1052">
+    <img class="f-klein" src="img/fruehstuecksraum.jpg" alt="Frühstücksraum von Anneliese's" width="1600" height="1067">
+  </div>
+  <div class="f-text">
+    <img class="anneliese-logo" src="img/annelieses-logo.png" alt="Anneliese's, das Restaurant im Hotel Freye" width="500" height="202">
+    <h2>Frühstück bei Anneliese's.</h2>
+    <p>Morgens frühstücken Sie im Frühstücksraum in der ersten Etage und stärken sich an unserem reichhaltigen Frühstücksbuffet für den Tag.</p>
+    <dl class="zeiten">
+      <div><dt>Frühstücksbuffet</dt><dd>täglich 7.30 bis 11.00 Uhr</dd></div>
+      <div><dt>Geöffnet</dt><dd>täglich ab 7.30 Uhr, bis spätestens 12.00 Uhr</dd></div>
+      <div><dt>Ohne Übernachtung</dt><dd>21,50 €, inklusive Heißgetränke und Säfte vom Buffet</dd></div>
+    </dl>
+    <a class="btn btn-linie" href="https://www.hotel-freye.de/pdf/Aushangkarte_ab_04-03-2026.pdf" target="_blank" rel="noopener">Aktuelle Karte ansehen</a>
+  </div>
+</section>
+
+<section class="block" id="lage">
+  <div class="kapitel">
+    <p class="eyebrow">Lage</p>
+    <h2>Geschäftsleute, Radwanderer und Wochenendurlauber.</h2>
+    <p>Alle verbringen bei uns eine angenehme Zeit. Je nachdem, warum Sie nach Rheine kommen:</p>
+  </div>
+  <div class="anlass-grid">
+    <article class="anlass">
+      <h3>Geschäftlich</h3>
+      <ul><li>Bahnhof in 2 Gehminuten</li><li>Kostenloses W-LAN</li><li>Rezeption werktags ab 7 Uhr</li><li>We also speak English</li></ul>
+    </article>
+    <article class="anlass">
+      <h3>Mit dem Rad</h3>
+      <ul><li>Ems und EmsAuenWeg direkt erreichbar</li><li>Unterstellplatz für Ihre Räder</li><li>Nähe zu verschiedenen Radwanderwegen</li></ul>
+    </article>
+    <article class="anlass">
+      <h3>Am Wochenende</h3>
+      <ul><li>Einkaufspassage direkt vor der Tür</li><li>Zahlreiche Restaurants in der Nähe</li><li>Zoo, Saline, Kloster Bentlage, Falkenhof-Museum</li></ul>
+    </article>
+  </div>
+</section>
+
+<section class="block geschichte" id="geschichte">
+  <div class="g-bild"><img src="img/boegen.jpg" alt="Die Bögen der historischen Fassade mit dem Schriftzug Hotel Freye" width="1587" height="1058"></div>
+  <div class="g-text">
+    <p class="eyebrow">Geschichte</p>
+    <h2>Seit dem 19. Jahrhundert gegenüber dem alten Rathaus.</h2>
+    <ol class="chronik">
+      <li><b>Anfang 19. Jh.</b><span>Direkt gegenüber dem alten Rathaus entsteht eine Schankstätte.</span></li>
+      <li><b>Hotel Möllers</b><span>Das Haus wird zu einem über die Region bekannten Hotel und Restaurant. Vielen Rheinensern ist der Name noch heute ein Begriff.</span></li>
+      <li><b>1939</b><span>Die Familie Freye übernimmt und führt das Haus als Hotel Freye bis in die 90er Jahre.</span></li>
+      <li><b>Heute</b><span>Jörg Hähnlein führt mit viel Engagement die Tradition des familiengeführten Hotels weiter.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section class="block anreise" id="anreise">
+  <div class="kapitel">
+    <p class="eyebrow">Anreise und Kontakt</p>
+    <h2>Mitten in Rheine, und trotzdem gut zu erreichen.</h2>
+  </div>
+  <div class="anreise-grid">
+    <div class="kontakt-karte">
+      <h3>Hotel Freye</h3>
+      <p>Borneplatz, Emsstraße 1a<br>48431 Rheine</p>
+      <p><a href="tel:+495971899260">05971 8 99 26 0</a><br>Fax 05971 8 99 26 16<br><a href="mailto:info@hotel-freye.de">info@hotel-freye.de</a></p>
+      <div class="knoepfe">
+        <a class="btn btn-linie" href="https://www.google.com/maps/search/?api=1&amp;query=Hotel+Freye+Emsstra%C3%9Fe+1a+48431+Rheine" target="_blank" rel="noopener">Route planen</a>
+        <a class="btn btn-linie" href="https://www.hotel-freye.de/pdf/freye.pdf" target="_blank" rel="noopener">Anfahrtsskizze</a>
+      </div>
+    </div>
+    <div class="info-liste">
+      <div><h3>Rezeption</h3><p>Mo bis Fr 7 bis 11 Uhr und 15 bis 19 Uhr<br>Sa und So 8 bis 12 Uhr und 15 bis 19 Uhr<br>Außerhalb dieser Zeiten sind wir telefonisch erreichbar. Spätanreisen sprechen Sie bitte mit uns ab.</p></div>
+      <div><h3>Mit dem Auto</h3><p>Zum Ein- und Auschecken fahren Sie direkt bis zum Hoteleingang vor. Parken können Sie in unmittelbarer Nähe oder ein paar Schritte weiter im Parkhaus.</p></div>
+      <div><h3>Mit Bahn und Rad</h3><p>Der Bahnhof liegt 2 Gehminuten entfernt. Für Radfahrer gibt es einen Unterstellplatz.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="block gruppe" id="gruppe">
+  <div class="kapitel">
+    <p class="eyebrow">Gruppen und besondere Wünsche</p>
+    <h2>Mehrere Zimmer? Fragen Sie uns direkt.</h2>
+    <p>Radgruppe, Firmenteam oder Familienbesuch: Ein paar Eckdaten genügen, wir melden uns mit einem Vorschlag.</p>
+  </div>
+  <form class="anfrage" id="anfrage">
+    <div class="a-reihe">
+      <label>Anreise<input type="date" name="anreise" required></label>
+      <label>Abreise<input type="date" name="abreise" required></label>
+    </div>
+    <div class="a-reihe">
+      <label>Einzelzimmer<input type="number" name="ez" min="0" max="20" value="0" inputmode="numeric"></label>
+      <label>Doppelzimmer<input type="number" name="dz" min="0" max="20" value="2" inputmode="numeric"></label>
+    </div>
+    <fieldset class="anlass-wahl">
+      <legend>Anlass</legend>
+      <label><input type="radio" name="anlass" value="Geschäftlich" checked><span>Geschäftlich</span></label>
+      <label><input type="radio" name="anlass" value="Radgruppe"><span>Radgruppe</span></label>
+      <label><input type="radio" name="anlass" value="Familie"><span>Familie</span></label>
+      <label><input type="radio" name="anlass" value="Sonstiges"><span>Sonstiges</span></label>
+    </fieldset>
+    <div class="a-reihe">
+      <label>Name<input type="text" name="name" autocomplete="name" required></label>
+      <label>Telefon oder E-Mail<input type="text" name="kontakt" required></label>
+    </div>
+    <label>Nachricht (optional)<textarea name="nachricht" rows="3"></textarea></label>
+    <button class="btn btn-buchen" type="submit">Anfrage senden</button>
+    <p class="entwurf-hinweis">Entwurf: Das Formular wird nicht versendet.</p>
+    <div class="anfrage-ok" hidden></div>
+  </form>
+</section>
+
+</main>
+
+<footer class="fuss">
+  <div class="fuss-in">
+    <div>
+      <svg class="marke-haus hell" aria-hidden="true"><use href="#haus"/></svg>
+      <p><b>Hotel Freye</b><br>Borneplatz, Emsstraße 1a, 48431 Rheine<br><a href="tel:+495971899260">05971 8 99 26 0</a> · <a href="mailto:info@hotel-freye.de">info@hotel-freye.de</a></p>
+    </div>
+    <div class="fuss-links"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div>
+  </div>
+  <p class="fuss-entwurf">Unverbindlicher Entwurf von Leon Oßendorf, kein offizieller Auftritt des Hotel Freye. Texte und Fotos stammen von hotel-freye.de, die Bewertungszahlen von Booking.com und Google (Oktober 2026). Die Buchung führt in das bestehende Buchungssystem des Hotels.</p>
+</footer>
+
+<div class="handy-leiste">
+  <a class="hl-tel" href="tel:+495971899260">Anrufen</a>
+  <a class="hl-buchen" href="#buchen"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#key-icon"/></svg>Direkt buchen</a>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
